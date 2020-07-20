@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>gameOfThrones</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aclonica">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Butcherman">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <section class="d-flex flex-column justify-content-between align-items-center section-main">
+        <div class="header-fixed">
+            <div class="row">                
+                <div class="col" style="margin-bottom: 7px;">
+                    <h1 id="title">Game of Thrones</h1>
+                </div>                 
+            </div>
+            <div class="row" id="header">
+                <button class="btn btn-primary" type="button" id="prev">Prev</button>
+                <div class="col">
+                    <button class="btn btn-primary" type="button" id="houses">Houses</button>
+                    <button class="btn btn-primary" type="button" id="characters">Characters</button>
+                </div>
+                <button class="btn btn-primary" type="button" id="next">Next</button>    
+            </div>
+            <div class="searchLine">
+                <i class="fa fa-search" aria-hidden="true" id="search"></i><input type="text" id="myInput"  placeholder="Search for character..">
+            </div>            
+            
+            <audio class="border rounded" controls="" autoplay="" loop="" id="playAudio">
+                <source src="./assets/music/Game of Thrones - Main.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+        <div class="d-flex flex-column align-items-center align-content-center" style="margin-top: 200px">
+            <div class="d-flex flex-wrap" id="hook-posts">
+                
+            </div>
+        </div>
+        <div class="text-center d-flex d-md-flex align-self-center order-5 align-items-md-center" id="pagin">
+            <nav class="border rounded shadow-lg" id="pagination">
+                <ul class="pagination">
+                    <!-- <li class="page-item" >
+                        <button class="btn btn-primary" type="button" id="prev">Prev</button>                        
+                    </li>
+                    <br><br>
+                    <li class="page-item" id="next">
+                        <button class="btn btn-primary" type="button" id="next">Next</button>                        
+                    </li> -->
+                </ul>
+            </nav>
+        </div>
+        <div class="modal fade border rounded shadow-lg" role="dialog" tabindex="1" id="modal-swornMembers">
+            <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable" role="document">
+                <div class="modal-content" id="modal-content">
+                    <div class="modal-header" >
+                        <h4 class="modal-title" id="modal-Htitle">
+                            <br>Sworn Members of this House<br>
+                            <br>
+                        </h4>
+                        <button type="button"
+                            class="close" data-dismiss="modal" aria-label="Close" >
+                            <span aria-hidden="true">×</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="d-flex flex-column flex-wrap" id="modalH-body">
+                            
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-light" type="button"
+                            data-dismiss="modal">Close
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        document.addEventListener('click', musicPlay);
+        function musicPlay() {
+            document.getElementById('playAudio').play();
+        }
+    </script>
+    <script src="https://use.fontawesome.com/8bf6435626.js"></script>
+    <script src="../OOP-aproach/assets/js/jquery.min.js"></script>
+    <script src="../OOP-aproach/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../OOP-aproach/app-GameofThrones-Oop.js" type="module"></script>
+   
+</body>
+
+</html>

@@ -1,0 +1,176 @@
+.h1, h1 {
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+}
+.header-fixed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 2;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.section-main {
+  background-size: cover ;
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  min-width: auto;
+  min-height: 950px;
+  background-color: #000000;
+  background-image: url("../img/game-of-thrones.jpg")  ;  
+  color: rgb(126,156,189);
+  font-family: Aclonica, sans-serif;
+}
+#hook-posts {
+  /* align-items: center; */
+  justify-content: center;
+}
+input {
+  margin-top: 8px;
+  margin-left: 5px;
+  max-width: 250px;
+}
+#search {
+  cursor: pointer;
+  align-self: center;
+}
+.searchLine {
+  display: flex;
+}
+
+#header {
+  display: flex;
+  justify-content: space-around;
+  margin-right: 0px;
+  margin-left: 0px;
+  max-width: 760px;
+}
+
+.col {
+  text-align: center;
+}
+
+audio {
+  width: 143px;
+  height: 33px;
+  margin-top: 13px;
+  background-color: rgba(0,0,0,0);
+  color: rgb(0,0,0);
+  filter: blur(0px) grayscale(0%);
+  opacity: 0.19;
+  margin-bottom: 58px;
+}
+
+#books {
+  text-align: center;
+}
+
+#title {
+  margin-top: 16px;
+  font-family: Aclonica, sans-serif;
+  -webkit-box-shadow: 10px 10px 189px 98px rgba(11,119,207,1);
+  -moz-box-shadow: 10px 10px 189px 98px rgba(11,119,207,1);
+   box-shadow: 10px 10px 189px 98px rgba(11,119,207,1);
+   background-color: rgba(11,119,207);
+}
+
+#pagination {
+  opacity: 0.35;
+  height: 41px;
+  filter: brightness(79%) contrast(95%) grayscale(100%) hue-rotate(48deg) saturate(34%);
+}
+
+#pagin {
+  margin-bottom: 38px;
+}
+
+#continut {
+  min-width: 350px;
+  max-width: auto;
+  min-height: 450px;
+  max-height: auto;
+}
+
+#media {
+  width: 480px;
+  height: 270px;
+  padding: 10px;
+}
+.media-action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 250px;
+}
+.house-cards {
+  margin: 18px;
+  background-color: rgba(54, 32, 32, 0.253);
+  background-blend-mode: soft-light;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.character-cards {
+  margin: 18px;
+  background-color:rgba(43, 77, 146, 0.81);
+  background-blend-mode: soft-light;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.character-cards img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+}
+/* img{
+  width: 100px;
+  height: 100px;
+} */
+
+.media-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+#hook-posts {
+  min-width: 372px;
+  min-height: 150px;
+  max-width: auto;
+  max-height: auto;
+}
+
+.modal-title {
+  text-align: center;
+  color: white;
+}
+.modal-content {
+  background-color:rgb(114, 46, 25) ;
+  opacity: 0.89;
+  color: white;
+}
+
+.modal-header {
+  text-align: center;
+  min-width: 450px;
+  background-color:rgb(77, 30, 16) ;
+}
+
+#modal-swornMembers {
+  background-image: url("../img/game-of-thrones2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
