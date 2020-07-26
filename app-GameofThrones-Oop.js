@@ -4,8 +4,8 @@ import {
     displayCharacters,
     showCharacters,
     sarchCharacters
-} from "../Game-of-Thrones/classes/model.js";
-import { Page } from "../Game-of-Thrones/classes/Page.js";
+} from "./classes/model.js";
+import { Page } from "./classes/Page.js";
 
 class App {
     constructor() {
