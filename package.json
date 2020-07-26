@@ -1,0 +1,29 @@
+{
+  "homepage": "http://yymihut.github.io/Game-ofThrones-Prv",
+  "name": "game-of-thrones",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app-GameofThrones-Oop.js",
+  "dependencies": {
+    "babel-plugin-import": "^1.13.0",
+    "gh-pages": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",   
+    "eject": "react-scripts eject",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yymihut/Game-ofThrones-Prv.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yymihut/Game-ofThrones-Prv/issues"
+  }
+}
